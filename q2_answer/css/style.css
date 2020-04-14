@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+/* 回答はここに書いてね */
+.clearfix{
+  clear: both;
+  content: "";
+  display: block;
+}
+/* 回答はここに書いてね */
+img{
+  vertical-align: bottom;
+}
+.wrapper{
+  margin: 0 auto;
+  width: 940px;
+
+}
+.highlight-box{
+    background-color: #eff3f4;
+    padding: 20px;
+}
+.img_fuusenn{
+  margin-bottom: 10px;
+  margin-right: 20px;
+    float: left;
+
+}
+.q2__content__text{
+  font-size: 18px;
+  line-height: 22px;
+}
+.img_tire{
+  margin-left:20px;
+  margin-bottom: 10px;
+  float: right;
+  }
+
+
+/* 回答はここに書いてね */

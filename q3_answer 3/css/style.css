@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+/* 回答はここに書いてね */
+table{
+  table-layout: auto;
+  width: 100%;
+  border:solid #dedede 1px ;
+}
+table th,table td{
+ border: solid #dedede 1px;
+background-color: #2244aa;
+ line-height: 18px;
+ padding: 10px;
+ color: #fff;
+}
+
+tbody th{
+  background-color: #2244aa;
+  line-height: 26px;
+  color: #fff;
+}
+tbody tr td:nth-child(2n+1){
+  background-color:#fff;
+  color: #666;
+}
+tbody tr td{
+  background-color:#ecf1f2 ;
+  color: #000;
+  text-align: center;
+}
+tfoot tr{
+  border-top: dashed #000 2px;
+
+}
+tfoot tr td{
+  background-color: #fff;
+  color: #000;
+  text-align: center;
+}
+
+/* 回答はここに書いてね */
