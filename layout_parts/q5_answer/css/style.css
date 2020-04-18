@@ -73,13 +73,6 @@
   top:120px;
   left:120px;
 }
-.bg8::after{
-  z-index: -1;
-  content: "";
-  width: 100px;
-  height: 100px;
-  background-color:#000;
-}
 
 .bg9{
   background-color: #2b69a3;
