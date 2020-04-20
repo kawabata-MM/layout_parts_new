@@ -73,7 +73,16 @@
   top:120px;
   left:120px;
 }
-
+.bg8::after{
+  z-index: -2;
+  content:"";
+  width: 20px;
+  height: 20px;
+  background-color: #ffefd3;
+  position: absolute;
+  top: 0px;
+  left:80px;
+}
 .bg9{
   background-color: #2b69a3;
   z-index: 9;
