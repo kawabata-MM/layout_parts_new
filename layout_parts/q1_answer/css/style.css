@@ -2,7 +2,7 @@
 
 /* 回答はここに書いてね */
 
-.clearfix:after{
+.clearfix:after {
   display: block;
   content: "";
   clear: both;;
@@ -10,30 +10,30 @@
 
 
 /* 回答はここに書いてね */
-.q1{
+.q1 {
 
 }
-.q1__content{
+.q1--content {
   width: 900px;
   margin: 0 auto;
   padding: 20px;
   background-color: #eff3f4;
-  box-sizing: border-box;
 }
-.q1__content__box{
+.q1--content-box {
   float: left;
   background-color: #3274ae;
   padding: 20px;
   margin-left: 20px;
   width: 230px;
 }
-.q1__content .q1__content__box:first-child {
+.q1--content .q1--content-box:first-child {
   margin-left: 0;
 }
-.q1__content__text{
+.q1--content-text {
   padding: 20px;
   font-size: 16px;
   line-height: 16px;
   border: 10px solid #022336;
   background-color: #eaf4ff;
 }
+
