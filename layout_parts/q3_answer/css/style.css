@@ -1,40 +1,40 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-table{
+.q7--table {
   table-layout: fixed;
   width: 100%;
   border:solid #dedede 1px ;
 }
 
-table td{
+.q7--table td {
  border: solid #dedede 1px;
  line-height: 18px;
  text-align: center;
- padding-top: 10px;
+ padding: 10px;
  color: #000;
 }
-table thead th,tbody th,tfoot th{
+
+.q7--table th {
  border: solid #dedede 1px;
  background-color: #2244aa;
  line-height: 26px;
  font-size: 18px;
- padding-top: 10px;
+ padding: 10px;
  color: #fff;
 }
-tr:nth-child(even){
+
+tr:nth-child(even) {
     background-color: #ecf1f2;
     
 }
 
-
-
-
-tfoot tr{
+tfoot tr {
   border-top: dashed #000 2px;
 
 }
-tfoot tr td{
+
+tfoot tr td {
   background-color: #fff;
   color: #000;
   text-align: center;
