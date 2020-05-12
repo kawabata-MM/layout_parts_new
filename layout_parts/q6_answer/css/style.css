@@ -22,7 +22,7 @@
   .q6_table {
     display: table;
   }
-  .q6_table-cell 
+.q6_table-cell {
     text-align: center;
     display: table-cell;
     vertical-align: middle;
