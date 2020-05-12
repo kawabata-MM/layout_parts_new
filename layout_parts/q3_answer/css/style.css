@@ -26,12 +26,10 @@
 
 tr:nth-child(even) {
     background-color: #ecf1f2;
-    
 }
 
 tfoot tr {
   border-top: dashed #000 2px;
-
 }
 
 tfoot tr td {
