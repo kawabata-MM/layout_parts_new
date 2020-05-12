@@ -2,32 +2,34 @@
 
 /* 回答はここに書いてね */
 table{
-  table-layout: auto;
+  table-layout: fixed;
   width: 100%;
   border:solid #dedede 1px ;
 }
-table th,table td{
+
+table td{
  border: solid #dedede 1px;
-background-color: #2244aa;
  line-height: 18px;
- padding: 10px;
+ text-align: center;
+ padding-top: 10px;
+ color: #000;
+}
+table thead th,tbody th,tfoot th{
+ border: solid #dedede 1px;
+ background-color: #2244aa;
+ line-height: 26px;
+ font-size: 18px;
+ padding-top: 10px;
  color: #fff;
 }
+tr:nth-child(even){
+    background-color: #ecf1f2;
+    
+}
 
-tbody th{
-  background-color: #2244aa;
-  line-height: 26px;
-  color: #fff;
-}
-tbody tr td:nth-child(2n+1){
-  background-color:#fff;
-  color: #666;
-}
-tbody tr td{
-  background-color:#ecf1f2 ;
-  color: #000;
-  text-align: center;
-}
+
+
+
 tfoot tr{
   border-top: dashed #000 2px;
 
@@ -37,5 +39,3 @@ tfoot tr td{
   color: #000;
   text-align: center;
 }
-
-/* 回答はここに書いてね */
