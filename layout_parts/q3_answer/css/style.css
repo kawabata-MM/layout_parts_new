@@ -1,31 +1,31 @@
 @charset "UTF-8";
-
 /* 回答はここに書いてね */
-.q7--table {
+
+.q3--table {
   table-layout: fixed;
   width: 100%;
-  border:solid #dedede 1px ;
+  border: solid #dedede 1px;
 }
 
-.q7--table td {
- border: solid #dedede 1px;
- line-height: 18px;
- text-align: center;
- padding: 10px;
- color: #000;
+.q3--table td {
+  border: solid #dedede 1px;
+  line-height: 18px;
+  text-align: center;
+  padding: 10px;
+  color: #000;
 }
 
-.q7--table th {
- border: solid #dedede 1px;
- background-color: #2244aa;
- line-height: 26px;
- font-size: 18px;
- padding: 10px;
- color: #fff;
+.q3--table th {
+  border: solid #dedede 1px;
+  background-color: #2244aa;
+  line-height: 26px;
+  font-size: 18px;
+  padding: 10px;
+  color: #fff;
 }
 
-tr:nth-child(even) {
-    background-color: #ecf1f2;
+.q3--table tr:nth-child(even) {
+  background-color: #ecf1f2;
 }
 
 tfoot tr {

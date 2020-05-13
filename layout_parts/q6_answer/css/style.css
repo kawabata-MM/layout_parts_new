@@ -1,8 +1,8 @@
 @charset "UTF-8";
-
 /* 回答はここに書いてね */
+
 .q6_text-align {
-   text-align: center;
+    text-align: center;
 }
 
 .q6_text-align p {
@@ -13,13 +13,13 @@
     width: 90px;
 }
 
-.q6_margin p  {
-  margin:0 auto;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  text-align:center;
-  background: #e6f2ff;
-  width: 90px;
+.q6_margin p {
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background: #e6f2ff;
+    width: 90px;
 }
 
 .q6_table {
@@ -32,14 +32,14 @@
     vertical-align: middle;
 }
 
-  .q6_table-cell p {
+.q6_table-cell p {
     display: inline-block;
     padding: 10px;
     background-color: #fff;
 }
 
 .q6_flex {
-    display: flex;  
+    display: flex;
     align-items: center;
     justify-content: center;
 }
@@ -78,5 +78,4 @@
     -ms-transform: translate(-50%, -50%);
 }
 
-
-  /* 回答はここに書いてね */
+/* 回答はここに書いてね */

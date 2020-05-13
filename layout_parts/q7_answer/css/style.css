@@ -1,52 +1,49 @@
 @charset "UTF-8";
-
 /* 回答はここに書いてね */
 
 /* 回答はここに書いてね */
+
 .clearfix::after {
-  content: "";
-  display: block;
-  clear: both;
+    content: "";
+    display: block;
+    clear: both;
 }
 
-
-.q7_float_left{
+.q7_float_left {
     float: left;
     width: 205px;
     font-size: 16px;
     margin-right: 25px;
 }
-.q7_float_right{
+
+.q7_float_right {
     float: right;
     width: 205px;
     font-size: 16px;
     margin-left: 25px;
 }
-.q7_table{
+
+.q7_table {
     display: table;
-    
-    
 }
-.q7_cell{
+
+.q7_cell {
     display: table-cell;
     width: 190px;
     vertical-align: middle;
-    
 }
-.q7_cell-text{
+
+.q7_cell-text {
     width: 205px;
 }
-.q7_cell-text{
-   
-}
-.q7_inlineblock{
+
+.q7_inlineblock {
     display: inline-block;
     width: 205px;
     vertical-align: middle;
-    
-}
-.q7__flexbox{
-    display: flex;
-    justify-content:space-around;
 }
 
+.q7__flexbox {
+    display: flex;
+    justify-content: space-around;
+}

@@ -1,17 +1,17 @@
 @charset "UTF-8";
-
 /* 回答はここに書いてね */
+
 .q4-table {
-    background-color: #ecf1f2;
-    padding: 20px;
-}
- 
-.table_1 {
- display: table;
- width: 100%;
+  background-color: #ecf1f2;
+  padding: 20px;
 }
 
-.table_1 .cell {
+.q4-table-top {
+  display: table;
+  width: 100%;
+}
+
+.q4-table-top .cell {
   display: table-cell;
   padding: 20px;
   text-align: center;
@@ -33,13 +33,13 @@
   box-sizing: border-box;
 }
 
-.table_2 {
+.q4-table-bottom {
   display: table;
   width: 100%;
   margin-top: 20px;
- }
+}
 
- .table_2 .cell {
+.q4-table-bottom .cell {
   display: table-cell;
   padding: 20px;
   text-align: center;
@@ -58,4 +58,5 @@
   background-color: #8fdcad;
   box-sizing: border-box;
 }
+
 /* 回答はここに書いてね */
