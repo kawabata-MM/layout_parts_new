@@ -3,3 +3,15 @@
 /* 回答はここに書いてね */
 
 /* 回答はここに書いてね */
+img  {
+    vertical-align: bottom;
+}
+.img-hover:hover{
+    
+    
+}
+
+.animation-text {
+    font-size: 16px;
+    line-height: 16px;
+}
