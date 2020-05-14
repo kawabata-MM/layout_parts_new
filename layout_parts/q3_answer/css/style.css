@@ -28,11 +28,11 @@
   background-color: #ecf1f2;
 }
 
-tfoot tr {
+.q3--table tfoot trtfoot tr {
   border-top: dashed #000 2px;
 }
 
-tfoot tr td {
+.q3--table tfoot tr td {
   background-color: #fff;
   color: #000;
   text-align: center;
