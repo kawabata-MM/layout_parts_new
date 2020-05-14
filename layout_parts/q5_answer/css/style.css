@@ -18,6 +18,10 @@
   text-align: center;
 }
 
+.bg1, .bg2, .bg3, .bg3, .bg4, .bg5, .bg6, .bg7, .bg8 {
+  position: absolute;
+}
+
 .bg1 {
   background-color: #ffefd3;
   z-index: 1;
