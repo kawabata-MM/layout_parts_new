@@ -4,46 +4,91 @@
 /* 回答はここに書いてね */
 
 .clearfix::after {
-    content: "";
-    display: block;
-    clear: both;
+  content: "";
+  display: block;
+  clear: both;
 }
 
 .q7_float_left {
-    float: left;
-    width: 205px;
-    font-size: 16px;
-    margin-right: 25px;
+  float: left;
+  width: 205px;
+  font-size: 16px;
+  margin-right: 25px;
 }
 
 .q7_float_right {
-    float: right;
-    width: 205px;
-    font-size: 16px;
-    margin-left: 25px;
+  float: right;
+  width: 205px;
+  font-size: 16px;
+  margin-left: 25px;
 }
 
 .q7_table {
-    display: table;
+  display: table;
 }
 
 .q7_cell {
-    display: table-cell;
-    width: 190px;
-    vertical-align: middle;
+  display: table-cell;
+  width: 190px;
+  vertical-align: middle;
+  padding-left: 50px;
+}
+
+.q7_cell:first-child {
+  padding-left: 0;
 }
 
 .q7_cell-text {
-    width: 205px;
+  width: 205px;
 }
 
-.q7_inlineblock {
-    display: inline-block;
-    width: 205px;
-    vertical-align: middle;
+.q7__inline-parent {
+  font-size: 0;
+}
+
+.q7_inline-block {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 50px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.q7_inline-block:first-child {
+  margin-left: 0;
+}
+
+.q7_inline-block {
+  width: 225px;
 }
 
 .q7__flexbox {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.q7__flexbox-childe {
+  width: 225px;
+  box-sizing: border-box;
+}
+
+.q7__inline-marginbox {
+  font-size: 0;
+}
+
+.q7__box__text-fixbox {
+  font-size: 16px;
+  width: 300px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.q7__box__text-auto {
+  font-size: 16px;
+  width: 100%;
+  display: inline-block;
+  margin-left: -300px;
+  padding-left: 350px;
+  box-sizing: border-box;
 }
