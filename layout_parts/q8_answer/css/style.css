@@ -3,11 +3,7 @@
 
 /* 回答はここに書いてね */
 
-/* img {
-  vertical-align: bottom;
-} */
-
-.q8 {
+.q8-box {
   position: relative;
   overflow: hidden;
   width: 500px;
@@ -33,11 +29,11 @@
   transition: all .5s;
 }
 
-.q8:hover .img-hover {
+.q8-box:hover .img-hover{
   transform: scale(1.5);
 }
 
-.q8:hover .animation-textbox {
+.q8-box:hover .animation-textbox {
   bottom: 0px;
 }
 
