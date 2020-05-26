@@ -9,18 +9,15 @@
   clear: both;
 }
 
-.q7_float_left {
+.q7_float_box {
   float: left;
   width: 205px;
   font-size: 16px;
-  margin-right: 25px;
+  margin-left: 50px;
 }
 
-.q7_float_right {
-  float: right;
-  width: 205px;
-  font-size: 16px;
-  margin-left: 25px;
+.q7_float_box:first-child {
+  margin-left: 0;
 }
 
 .q7_table {
@@ -68,7 +65,7 @@
   align-items: flex-end;
 }
 
-.q7__flexbox-childe {
+.q7__flexbox-child {
   width: 225px;
   box-sizing: border-box;
 }
